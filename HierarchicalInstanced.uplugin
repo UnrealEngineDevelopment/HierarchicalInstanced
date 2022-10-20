@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"Description": "Quick instanced and uninstanced StaticMeshActor",
+	"Category": "Other",
+	"FriendlyName": "HierarchicalInstanced",
+	"CreatedBy": "losemymind.libo@gmail.com",
+	"WhitelistPlatforms": [ "Win64", "Win32", "Mac", "IOS", "Android" ],
+	"MarketplaceURL": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": true,
+	"EnabledByDefault": true,
+	"Modules": [
+		{
+			"Name": "HierarchicalInstanced",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "HierarchicalInstancedEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
